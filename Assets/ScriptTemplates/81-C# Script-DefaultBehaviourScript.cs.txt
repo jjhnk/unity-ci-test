@@ -1,0 +1,30 @@
+/**
+ * @author #AUTHOR#@naviworks.com
+ * @brief
+ * @version 0.1
+ * @date #DATE#
+ *
+ * @copyright Copyright 2023 Naviworks, Co., LTD. All rights reserved.
+ *
+ */
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    #region Public Fields
+    // members
+    #NOTRIM#
+    // events
+    #NOTRIM#
+    #endregion
+
+    #region Unity Methods
+    #NOTRIM#
+    #endregion
+
+    #region Public Methods
+    #NOTRIM#
+    #endregion
+}
+#ROOTNAMESPACEEND#
