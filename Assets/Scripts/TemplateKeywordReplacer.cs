@@ -28,8 +28,6 @@ public class KeywordReplace : AssetModificationProcessor
         AssetDatabase.Refresh();
     }
 
-    //
-
     private static void ChangeCsScriptContent(string path)
     {
         string fileContent = System.IO.File.ReadAllText(path);
