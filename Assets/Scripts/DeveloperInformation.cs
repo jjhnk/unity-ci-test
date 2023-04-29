@@ -13,6 +13,7 @@ public class DeveloperInformation : ScriptableObject
         get
         {
             return developer_name;
+            // test
         }
     }
 }
