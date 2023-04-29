@@ -62,8 +62,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      # matrix:
-      #   targetPlatform: ${{ matrix.targetPlatform }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -108,8 +106,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        targetPlatform: ${{ matrix.targetPlatform }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -154,8 +150,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      # matrix:
-      #   targetPlatform: ${{ matrix.targetPlatform }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
