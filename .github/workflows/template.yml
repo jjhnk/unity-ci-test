@@ -4,6 +4,7 @@ on: push
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+  TOKEN: ${{ secrets.TOKEN }}
 
 jobs:
   checkLicense:
@@ -210,3 +211,4 @@ jobs:
         with:
           branch: gh-pages
           folder: build/WebGL
+          repo-token: TOKEN
