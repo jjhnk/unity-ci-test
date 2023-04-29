@@ -211,4 +211,4 @@ jobs:
         with:
           branch: gh-pages
           folder: build/WebGL
-          repo-token: TOKEN
+          GITHUB_TOKEN: TOKEN
