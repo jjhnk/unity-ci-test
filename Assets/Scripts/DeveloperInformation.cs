@@ -6,13 +6,13 @@ using UnityEngine;
 public class DeveloperInformation : ScriptableObject
 {
     [SerializeField]
-    private string name;
+    private string developer_name;
  
     public string Name
     {
         get
         {
-            return name;
+            return developer_name;
         }
     }
 }
