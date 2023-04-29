@@ -44,7 +44,7 @@ namespace HyperCasual.Core
             }
             else
             {
-                Advertisement.Initialize(GameId, TestMode, false, this);
+                Advertisement.Initialize(GameId, TestMode, this);
             }
         }
 
