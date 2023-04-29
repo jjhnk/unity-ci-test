@@ -1,6 +1,7 @@
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
- 
+
 public class KeywordReplace : AssetModificationProcessor
 {
     public static void OnWillCreateAsset(string path)
@@ -47,3 +48,4 @@ public class KeywordReplace : AssetModificationProcessor
         System.IO.File.WriteAllText(path, fileContent);
     }
 }
+#endif
